@@ -1,0 +1,7 @@
+8ball // Play magic 8 ball // $CMD$ BoneBot-Scripts/cmd-8ball.sh $CMD$ $CMDOUT$
+random // Get a random image from a folder // $CMD$ BoneBot-Scripts/cmd-random.sh $CMD$ $FILE$ $CMDOUT$ $FILE$ 
+fry // Absolutely nuke an image (Looping requires permission) // $CMD$ BoneBot-Scripts/cmd-deepfry.sh $CMD$ $CMDOUT$ $FILE$ BoneBot-Scripts/temp/fryout.png $FILE$
+admin // Admin [BoneBot-Scripts](https://github.com/diademiemi/BoneBot-Scripts) commands // $CMD$ BoneBot-Scripts/cmd-admin.sh $CMD$ $CMDOUT$
+cmd // Run a command (Requires permission) // $CMD$ if BoneBot-Scripts/hasperm.sh TRUSTED; then bash -c "${BB_INPUT}"; fi $CMD$ ```$CMDOUT$```
+get // Get a local file (Requires permission) // $CMD$ if BoneBot-Scripts/hasperm.sh TRUSTED; then echo "${BB_INPUT}"; fi $CMD$ $FILE$ $CMDOUT$ $FILE$
+
