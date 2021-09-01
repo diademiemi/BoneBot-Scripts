@@ -12,7 +12,7 @@ Adding this will add an `8ball` command
 
 #### Random file
 This will return a random file from a folder, with the user being able to specify a subfolder 
-`random // Get a random image from a folder // $CMD$ BoneBot-Scripts/cmd-randomfile.sh $CMD$ $FILE$ $CMDOUT$ $FILE$`  
+`random // Get a random image from a folder // $CMD$ BoneBot-Scripts/cmd-random.sh $CMD$ $FILE$ $CMDOUT$ $FILE$`  
 ![8ball](img/random.png)  
 
 ###### Going to parent directories (../) is blocked, users with the TRUSTED perm can override this

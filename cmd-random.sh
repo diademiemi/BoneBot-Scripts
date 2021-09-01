@@ -9,9 +9,8 @@ IFS=' ' read -ra INPUT_ARRAY <<< "${BB_INPUT}"
 if [ ! -z ${INPUT_ARRAY[0]} ]; then
   
   # Check if attempting to traverse to parent directories
-  if ! echo ${INPUT_ARRAY[0]} | grep -q ".."; then
+  if ! echo ${INPUT_ARRAY[0]} | grep -q '\.\.'; then
     
-    echo ${INPUT_ARRAY[0]}
     DIR=${DIR}/${INPUT_ARRAY[0]}
 
   elif BoneBot-Scripts/hasperm.sh TRUSTED; then
